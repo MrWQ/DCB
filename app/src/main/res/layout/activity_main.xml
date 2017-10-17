@@ -12,5 +12,11 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:id="@+id/wordfragment"/>
+    <!--<fragment-->
+    <!--android:name="com.example.administrator.dcb.RightFragment"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_weight="2"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/detailfragment"/>-->
 
 </LinearLayout>

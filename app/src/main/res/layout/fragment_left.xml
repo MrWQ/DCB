@@ -1,14 +1,36 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.administrator.dcb.LeftFragment">
+    tools:context="com.example.administrator.dcb.LeftFragment"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <!-- TODO: Update blank fragment layout -->
     <ListView
+
         android:entries="@array/items"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/list"></ListView>
+        android:layout_height="138dp"
+        android:id="@+id/list"
+        android:layout_weight="0.69"></ListView>
 
-</FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insert"
+        android:id="@+id/insert" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show"
+        android:id="@+id/show" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:id="@+id/delete" />
+
+</LinearLayout>
